@@ -7,17 +7,30 @@
     --d-magenta: #8d0028;
     --blue: #0080FF;
     --d-blue: #1c5085;
-    --green: #00CE53; 
-    --d-green: #008a37; 
-    --normbodytxt: white; /*text color white var*/
+    --green: #00CE53;
+    --d-green: #008a37;
+    --normbodytxt: white;
+    /*text color white var*/
+}
+
+.magenta {
+    color: var(--magenta);
+}
+.green {
+    color: var(--green);
+}
+.blue {
+    color: var(--blue)
 }
 
 /*custom css palette classes*/
-.main-bg { /*main bg style*/
+.main-bg {
+    /*main bg style*/
     background-color: var(--main-bg-color);
 }
 
-.secoundary-bg { /*contrasting color to main bg*/
+.secoundary-bg {
+    /*contrasting color to main bg*/
     background-color: var(--secoundary-bg-color);
     border-color: var(--main-bg-color);
     border-style: dashed;
@@ -31,15 +44,14 @@
     -webkit-animation: glow 10s ease-in-out infinite alternate;
     -moz-animation: glow 10s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    
+
 }
 
 .glowstatic-green {
     text-shadow: 0 0 60px #00ff66;
 }
-@-webkit-keyframes glow { /*<---------------YELLER FELLER- located: but I don't understand why*/
 
-    /*webkit stuff for glow effect*/
+@-webkit-keyframes glow {/*webkit animation*//*<---------------YELLER FELLER- located: but I don't understand why*/
     from {
         text-shadow: 0 0 10px #0000001a, 0 0 20px #0000001f, 0 0 30px #0d00ff, 0 0 40px #5800ca, 0 0 50px #0d00ff, 0 0 60px #9321fe, 0 0 80px #0d00ff;
     }
@@ -49,20 +61,59 @@
     }
 }
 
+/*deep shadow text effect*/
+.deepshd-green {
+    /*green gradient shadow effect*/
+    background-color: #0e0e0e7e;
+    letter-spacing: .05em;
+    text-shadow: 0 -1px 0 var(--d-green), 0 1px 0 #00ce5252, 0 2px 0 #00c04d41, 0 3px 0 #00b3455e, 0 4px 0 #00a53f60, 0 5px 0 #00983863, 0 6px 0 #008b318e, 0 7px 0 #007d2a69, 0 8px 0 #006f2350, 0 9px 0 #00621c5d, 0 10px 0 #00541571, 0 11px 0 #00470ead, 0 12px 0 #003a08a4, 0 13px 0 #002c0198, 0 14px 0 #001f0185, 0 15px 0 #0011007a, 0 022px 30px rgb(0, 0, 0);
+}
+
 /*PAGE HEADER custom styles*/
 .headertextbox {
     background-color: #0a0813ad;
-    color: #e103429f;
     width: 160vb;
     height: min-content;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     font-size: 360%;
     text-align: center;
 }
 
-
-
 /*BODY custom styles*/
+/*site wide*/
+
+.norm-card-style {
+    background-color: var(--secoundary-bg-color) !important;
+    padding: 5%;
+    border-radius: 50px !important;
+    border-bottom: dashed 5px black !important;
+    border-left: solid 1px black !important;
+    border-right: solid 1px black !important;
+    border-top: solid 1px black !important;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.548) !important;
+}
+
+/*index*/
+
+/*Birthdays*/
+
+/*FAQs*/
+
+/*Contact*/
+
+
+
+/*FOOTER*/
+.footerstyle {
+    background-color: var(--secoundary-bg-color) !important;
+    padding: 1%;
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    border-bottom: solid 1px black !important;
+    border-left: solid 1px black !important;
+    border-right: solid 1px black !important;
+    border-top: dashed 5px black !important;
+}
 
 
 
@@ -71,16 +122,10 @@
 
 
 
-
-
+/*footer*/
 
 
 
 
 
 /*testing ground*/
-.deepshd-green { /*green gradient shadow effect*/
-    background-color: #0e0e0e7e;
-    letter-spacing: .05em;
-    text-shadow: 0 -1px 0 var(--d-green), 0 1px 0 #00ce5252, 0 2px 0 #00c04d41, 0 3px 0 #00b3455e, 0 4px 0 #00a53f60, 0 5px 0 #00983863, 0 6px 0 #008b318e, 0 7px 0 #007d2a69, 0 8px 0 #006f2350, 0 9px 0 #00621c5d, 0 10px 0 #00541571, 0 11px 0 #00470ead, 0 12px 0 #003a08a4, 0 13px 0 #002c0198, 0 14px 0 #001f0185, 0 15px 0 #0011007a, 0 022px 30px rgb(0, 0, 0);
-}
