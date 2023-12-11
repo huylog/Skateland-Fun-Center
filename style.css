@@ -72,11 +72,6 @@
 /*PAGE HEADER custom styles*/
 .headertextbox {
     background-color: #0a0813ad;
-    width: 160vb;
-    height: min-content;
-    padding-bottom: 5px;
-    font-size: 360%;
-    text-align: center;
 }
 
 /*BODY custom styles*/
