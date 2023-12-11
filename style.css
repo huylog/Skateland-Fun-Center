@@ -11,6 +11,7 @@
     --d-green: #008a37;
     --normbodytxt: white;
     /*text color white var*/
+
 }
 
 .magenta {
@@ -51,7 +52,7 @@
     text-shadow: 0 0 60px #00ff66;
 }
 
-@-webkit-keyframes glow {/*webkit animation*//*<---------------YELLER FELLER- located: but I don't understand why*/
+@keyframes glow {/*webkit animation*//*<---------------YELLER FELLER- located: but I don't understand why*/
     from {
         text-shadow: 0 0 10px #0000001a, 0 0 20px #0000001f, 0 0 30px #0d00ff, 0 0 40px #5800ca, 0 0 50px #0d00ff, 0 0 60px #9321fe, 0 0 80px #0d00ff;
     }
@@ -108,8 +109,12 @@
     border-left: solid 1px black !important;
     border-right: solid 1px black !important;
     border-top: dashed 5px black !important;
+    color: white;
 }
-
+.icon:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.3);
+}
 
 
 

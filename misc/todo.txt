@@ -22,3 +22,18 @@
 
 {Contact}
 - make a profile card and display all contact info, ???about me here???
+
+            <div class="nav-underline row align-items-start text-light fs-3"> <!--nav achor buttons-->
+                <div class="col">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a> <!--index-->
+                </div>
+                <div class="col">
+                    <a class="nav-link" href="birthdays.html">Birthdays</a> <!--birthdays-->
+                </div>
+                <div class="col">
+                    <a class="nav-link active glowstatic-green" style="color: var(--green);" href="faq.html">FAQs</a> <!--faq--> <!--ACTIVE <a>-->
+                </div>
+                <div class="col">
+                    <a class="nav-link" href="contact.html">Contact</a> <!--contact-->
+                </div>
+            </div>
