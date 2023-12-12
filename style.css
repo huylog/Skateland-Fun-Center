@@ -17,9 +17,11 @@
 .magenta {
     color: var(--magenta);
 }
+
 .green {
     color: var(--green);
 }
+
 .blue {
     color: var(--blue)
 }
@@ -52,7 +54,8 @@
     text-shadow: 0 0 60px #00ff66;
 }
 
-@keyframes glow {/*webkit animation*//*<---------------YELLER FELLER- located: but I don't understand why*/
+/*webkit animation*/
+@keyframes glow {
     from {
         text-shadow: 0 0 10px #0000001a, 0 0 20px #0000001f, 0 0 30px #0d00ff, 0 0 40px #5800ca, 0 0 50px #0d00ff, 0 0 60px #9321fe, 0 0 80px #0d00ff;
     }
@@ -62,21 +65,12 @@
     }
 }
 
-/*deep shadow text effect*/
-.deepshd-green {
-    /*green gradient shadow effect*/
-    background-color: #0e0e0e7e;
-    letter-spacing: .05em;
-    text-shadow: 0 -1px 0 var(--d-green), 0 1px 0 #00ce5252, 0 2px 0 #00c04d41, 0 3px 0 #00b3455e, 0 4px 0 #00a53f60, 0 5px 0 #00983863, 0 6px 0 #008b318e, 0 7px 0 #007d2a69, 0 8px 0 #006f2350, 0 9px 0 #00621c5d, 0 10px 0 #00541571, 0 11px 0 #00470ead, 0 12px 0 #003a08a4, 0 13px 0 #002c0198, 0 14px 0 #001f0185, 0 15px 0 #0011007a, 0 022px 30px rgb(0, 0, 0);
-}
-
 /*PAGE HEADER custom styles*/
 .headertextbox {
     background-color: #0a0813ad;
 }
 
 /*BODY custom styles*/
-/*site wide*/
 .norm-card-style {
     background-color: var(--secoundary-bg-color) !important;
     padding: 5%;
@@ -88,17 +82,9 @@
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.548) !important;
 }
 
-/*index*/
-
-/*Birthdays*/
-
-/*FAQs*/
 .border-bottom-dash {
     border-bottom: dashed 5px black !important;
 }
-/*Contact*/
-
-
 
 /*FOOTER*/
 .footerstyle {
@@ -112,21 +98,8 @@
     border-top: dashed 5px black !important;
     color: white;
 }
+
 .icon:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.3);
 }
-
-
-
-
-
-
-
-/*footer*/
-
-
-
-
-
-/*testing ground*/
