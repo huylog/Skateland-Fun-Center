@@ -77,7 +77,6 @@
 
 /*BODY custom styles*/
 /*site wide*/
-
 .norm-card-style {
     background-color: var(--secoundary-bg-color) !important;
     padding: 5%;
@@ -94,7 +93,9 @@
 /*Birthdays*/
 
 /*FAQs*/
-
+.border-bottom-dash {
+    border-bottom: dashed 5px black !important;
+}
 /*Contact*/
 
 
