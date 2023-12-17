@@ -35,7 +35,6 @@
 .secoundary-bg {
     /*contrasting color to main bg*/
     background-color: var(--secoundary-bg-color);
-    border-color: var(--main-bg-color);
     border-style: dashed;
     border-color: rgba(2, 1, 11, 0.8);
     border-width: 0px 0px 8px 0px;
@@ -73,7 +72,7 @@
 /*BODY custom styles*/
 .norm-card-style {
     background-color: var(--secoundary-bg-color) !important;
-    padding: 5%;
+    padding: 0%;
     border-radius: 50px !important;
     border-bottom: dashed 5px black !important;
     border-left: solid 1px black !important;
