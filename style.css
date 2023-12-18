@@ -36,10 +36,10 @@
 
 .secoundary-bg {
     /*contrasting color to main bg*/
-    background-color: var(--secoundary-bg-color);
-    border-style: dashed;
-    border-color: rgba(2, 1, 11, 0.8);
-    border-width: 0px 0px 8px 0px;
+    background-color: var(--secoundary-bg-color) !important;
+    border-style: dashed !important;
+    border-color: rgba(2, 1, 11, 0.8) !important;
+    border-width: 0px 0px 8px 0px !important;
 }
 
 /*glow effects*/
@@ -65,6 +65,40 @@
         text-shadow: 0 0 20px #0000002d, 0 0 30px #00000031, 0 0 40px #9321fe, 0 0 50px #0d00ff, 0 0 60px #9321fe, 0 0 70px #0d00ee, 0 0 90px #5800ca;
     }
 }
+/*nav bar styles*/
+.navbar {
+    --bs-navbar-padding-x: 1vw !important;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: var(--normbodytxt) !important;
+    --bs-navbar-hover-color: var(--green) !important;
+    --bs-navbar-active-color: var(--green) !important;
+    --bs-navbar-brand-font-size: 1.75rem !important;
+    --bs-navbar-brand-color: var(--normbodytxt) !important;
+    --bs-navbar-brand-hover-color: var(--normbodytxt) !important;
+    --bs-navbar-nav-link-padding-x: 1.5rem !important;
+    --bs-navbar-toggler-padding-y: 10px !important;
+    --bs-navbar-toggler-padding-x: 10px !important;
+    --bs-navbar-toggler-font-size: 1.25rem !important;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: var(--green) !important;
+    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  }
+
+  @media screen and (max-width: 600px) {
+    .bdg {
+      display: block !important;
+    }
+  }
+
+  a:hover {
+    color: var(--d-green) ;
+    text-decoration:overline;
+  }
+  .nav-item {
+    font-size: 1.75rem;
+  }
 
 /*PAGE HEADER custom styles*/
 .headertextbox {
@@ -83,9 +117,30 @@
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.548) !important;
 }
 
+.border-neon-blue {
+    border: var(--blue) 0.125em solid !important;
+    box-shadow: inset 0 0 0.5em 0 var(--blue), 0 0 0.5em 0 var(--blue) !important;
+}
+
+.border-neon-magenta {
+    border: var(--magenta) 0.125em solid !important;
+    box-shadow: inset 0 0 0.5em 0 var(--magenta), 0 0 0.5em 0 var(--magenta) !important;
+}
+
+.border-neon-green {
+    border: var(--green) 0.125em solid !important;
+    box-shadow: inset 0 0 0.5em 0 var(--green), 0 0 0.5em 0 var(--green) !important;
+}
+
 .border-bottom-dash {
     border-bottom: dashed 5px black !important;
 }
+
+@media screen and (max-width:px) {
+    .lrg-crd {
+      display:block !important;
+    }
+  }
 
 /*custom bs accordion styles*/
 .accordion {
@@ -109,25 +164,41 @@
 .accordion .accordion-item:has(.accordion-button:not(.collapsed)) {
     border: 2px solid #000000 !important;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.548) !important;
-
 }
 
 .accordion-button {
     padding-top: 0rem !important;
     font-weight: 700 !important;
-    font-size: larger !important;
+    font-size: 30px !important;
 }
-
+@media screen and (max-width: 600px) {
+    .accordion-button {
+      font-size: 5vw !important;
+    }
+  }
 .accordion-button.collapsed {
     border-bottom: dashed 5px black !important;
     border-radius: 50px !important;
+    
 }
 
 .accordion-collapse {
     transition: all 0.3s !important;
-    border-bottom: dashed 5px var(--green) !important;
+    border-bottom: dashed 5px var(--d-magenta) !important;
     border-radius: 50px !important;
+    box-shadow: inset 0 0 3.5rem 0 var(--magenta), 0 0 1em 0 var(--magenta) !important;
+    margin-top: 1rem !important;
+    font-size: 1.5rem !important;
 }
+
+.accordion-container {
+    margin-inline: 10vw !important;
+}
+@media screen and (max-width: 600px) {
+    .accordion-container {
+        margin-inline: 0vw !important;
+    }
+  }
 
 /*FOOTER*/
 .footerstyle {
@@ -146,3 +217,6 @@
     transition: transform 0.3s ease-in-out;
     transform: scale(1.3);
 }
+
+
+

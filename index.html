@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!--responsive tab icon styles-->
     <link rel="apple-touch-icon" sizes="57x57" href="imgs/muteicon/apple-icon-57x57.png">
@@ -27,43 +28,52 @@
     <!--good ol' bootstra-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+
+
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/b624da636f.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="main-bg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <!--NAV-->
-    <nav class="navbar sticky-top secoundary-bg">
-        <div class="container justify-content-between">
-            <a class="navbar-brand text-light fs-2" href="index.html">
-                <img src="imgs/yinyanglogo.png" alt="logo" width="50" class="d-inline-block align-text-top">
-                <!--custom logo + name-->
-                Skateland Fun Center
-                <span class="badge" style="font-weight: lighter; background-color: var(--d-green);">Neosho, MO</span>
-                <!--location badge-->
-            </a>
-            <div class="nav-underline row align-items-start text-light fs-3"> <!--nav achor buttons-->
-                <div class="col">
-                    <a class="nav-link active glowstatic-green" style="color: var(--green);" aria-current="page"
-                        href="index.html">Home</a> <!--ACTIVE <a>-->
-                </div>
-                <div class="col">
-                    <a class="nav-link" href="parties.html">Parties</a>
-                </div>
-                <div class="col">
-                    <a class="nav-link" href="faq.html">FAQs</a>
-                </div>
-                <div class="col">
-                    <a class="nav-link" href="contact.html">Contact</a>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg secoundary-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light fs-2 " href="index.html">
+                    <img src="imgs/yinyanglogo.png" alt="logo" width="50" class="d-inline-block align-text-top">
+                    <!--custom logo + name-->
+                    Skateland Fun Center
+                    <span class="badge bdg" style="font-weight: lighter; background-color: var(--d-green);">Neosho,
+                        MO</span>
+                    <!--location badge-->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active glowstatic-green" aria-current="page" href="index.html">Home</a> <!--index--> <!--ACTIVE <a>-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="parties.html">Parties</a> <!--parties-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQs</a> <!--faq-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a> <!--contact-->
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!--HEADER banner-->
     <div class="z-n1 position-absolute container-fluid">
         <div style="height: 500px; background-image: url('imgs/rollerrinkdarkened.png'); background-repeat: no-repeat;"
@@ -76,7 +86,7 @@
         </h1>
     </span>
     <!--main BODY home-->
-    <div class="spacer m-5"></div>
+    <div class="spacer m-4" style="padding:0.8rem !important;"></div>
     <div class="spacer p-1 m-5"></div>
     <span class="container-fluid text-center">
         <h1 class="glowflash-magenta fw-semibold" style="color: #e103429f;">Public Session Info</h1>
@@ -84,33 +94,33 @@
     <div class="container">
         <div class="row container-fluid">
             <div class="col-lg col-xl-4">
-                <div class="norm-card-style fw-bolder p-4">
-                    <h2 class="fw-bolder"><span class="blue">Friday</span></h2>
+                <div class="norm-card-style border-neon-magenta fw-bolder p-4">
+                    <h2 class="fw-bolder"><span class="magenta">Friday</span></h2>
                     <h3 class="text-light">7pm-9pm <span class="fw-light float-end">$6.00</span></h3>
                     <h3 class="text-light">9pm-11pm <span class="fw-light float-end">$6.00</span></h3>
                     <h3 class="text-light">7pm-11pm <span class="fw-light float-end ">$8.00</span></h3>
                 </div>
             </div>
             <div class="col-lg col-xl-4">
-                <div class="norm-card-style fw-bolder p-4">
+                <div class="norm-card-style border-neon-blue fw-bolder p-4">
                     <h2 class="fw-bolder"><span class="blue">Saturday</span></h2>
                     <h3 class="text-light">2pm-4pm<span class="fw-light float-end">$5.00</span></h3>
                     <h3 class="text-light">7pm-10pm <span class="fw-light float-end">$6.00</span></h3>
                 </div>
             </div>
             <div class="col-lg col-xl-4">
-                <div class="norm-card-style fw-bolder p-4">
-                    <h2 class="fw-bolder"><span class="blue">Sunday</span></h2>
+                <div class="norm-card-style border-neon-green fw-bolder p-4">
+                    <h2 class="fw-bolder"><span class="green">Sunday</span></h2>
                     <h3 class="text-light">2pm-4pm <span class="fw-light float-end">$5.00</span></h3>
                 </div>
             </div>
         </div>
         <div class="spacer p-3"></div>
-        <div class="row norm-card-style p-5">
+        <div class="row norm-card-style border-neon-blue p-5 lrg-crd">
             <div class="row container-fluid">
                 <h1 class="fw-bolder"><span class="blue">Extra Services</span></h1>
             </div>
-            <div class="col-lg-2 col-xl card norm-card-style p-4">
+            <div class="col-lg col-xl-4 card norm-card-style p-4">
                 <img src="imgs/rollerbladeskatemate.jpg" class="card-img-top img-fluid"
                     alt="rollerblades-and-skatemates">
                 <div class="card-body text-light">
@@ -119,14 +129,14 @@
                     <h3>Speed Skates <span class="float-end fw-lighter">$3.00</span></h3>
                 </div>
             </div>
-            <div class="col-lg-2 col-xl card norm-card-style p-4">
+            <div class="col-lg col-xl-4 card norm-card-style p-4">
                 <img src="imgs/food.jpg" class="card-img-top img-fluid" alt="rollerblades-and-skatemates">
                 <div class="card-body text-light text-center">
                     <h3 class="card-title">Consessions!</h3>
                     <p class="card-text fw-lighter">Menu available at location</p>
                 </div>
             </div>
-            <div class="col-lg-2 col-xl card norm-card-style p-4">
+            <div class="col-lg col-xl-4 card norm-card-style p-4">
                 <img src="imgs/pool.jpg" class="card-img-top img-fluid" alt="rollerblades-and-skatemates">
                 <div class="card-body text-light text-center">
                     <h3 class="card-title">Pool + Air Hockey Tables</h3>
@@ -140,7 +150,8 @@
         <div class="footerstyle text-light" style="padding:0px;">
             <div class="row text-center">
                 <div class="col" style="color:rgba(250, 235, 215, 0.626)">
-                    <div style="color: var(--d-green);">Stakeland Fun Center <img src="imgs/yinyanglogo.png" alt="logo" width="40">
+                    <div style="color: var(--d-green);">Stakeland Fun Center <img src="imgs/yinyanglogo.png" alt="logo"
+                            width="40">
                         <a style="color: var(--d-green);"
                             href="https://www.google.com/maps/place/Skateland+Fun+Center/@36.8802471,-94.4027613,19.33z/data=!4m15!1m8!3m7!1s0x87c860047deb8c25:0x3364ba11ac77034c!2s1297+N+Business+71,+Neosho,+MO+64850!3b1!8m2!3d36.8807482!4d-94.40318!16s%2Fg%2F11c43x0vgb!3m5!1s0x87c88aa9f384ca89:0x1313baaa650a77f7!8m2!3d36.8805959!4d-94.40307!16s%2Fg%2F1tffpwfp?entry=ttu">
                             Neosho, MO <i class="fa-solid fa-location-dot"></i></a>
@@ -162,4 +173,5 @@
         </div>
     </footer>
 </body>
+
 </html>

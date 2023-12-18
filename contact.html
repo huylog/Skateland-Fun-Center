@@ -38,31 +38,41 @@
 </head>
 <body class="main-bg">
     <!--NAV-->
-    <nav class="navbar sticky-top secoundary-bg">
-        <div class="container justify-content-between">
-            <a class="navbar-brand text-light fs-2" href="index.html">
-                <img src="imgs/yinyanglogo.png" alt="logo" width="50" class="d-inline-block align-text-top">
-                <!--custom logo + name-->
-                Skateland Fun Center
-                <span class="badge" style="font-weight: lighter; background-color: var(--d-green);">Neosho, MO</span>
-                <!--location badge-->
-            </a>
-            <div class="nav-underline row align-items-start text-light fs-3"> <!--nav achor buttons-->
-                <div class="col">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a> <!--index-->
-                </div>
-                <div class="col">
-                    <a class="nav-link" href="parties.html">Parties</a> <!--parties-->
-                </div>
-                <div class="col">
-                    <a class="nav-link" href="faq.html">FAQs</a> <!--faq-->
-                </div>
-                <div class="col">
-                    <a class="nav-link active glowstatic-green" style="color: var(--green);" href="contact.html">Contact</a> <!--contact--> <!--ACTIVE <a>-->
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg secoundary-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light fs-2 " href="index.html">
+                    <img src="imgs/yinyanglogo.png" alt="logo" width="50" class="d-inline-block align-text-top">
+                    <!--custom logo + name-->
+                    Skateland Fun Center
+                    <span class="badge bdg" style="font-weight: lighter; background-color: var(--d-green);">Neosho,
+                        MO</span>
+                    <!--location badge-->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a> <!--index-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="parties.html">Parties</a> <!--parties-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQs</a> <!--faq-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active glowstatic-green" href="contact.html">Contact</a> <!--contact--> <!--ACTIVE <a>-->
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!--HEADER banner-->
     <div class="z-n1 position-absolute container-fluid">
         <div style="height: 500px; background-image: url('imgs/rollerrinkdarkened.png'); background-repeat: no-repeat;"
@@ -78,7 +88,7 @@
     </div>
     <!--contact info-->
     <div class="container">
-        <div style="padding:5px;" class="row norm-card-style">
+        <div style="padding:5px;" class="row norm-card-style border-neon-green">
             <div>
                 <div class="float-start">
                     <a href="(417) 451-3992" target="_blankl" class="btn" role="button" data-bs-toggle="button"><i
