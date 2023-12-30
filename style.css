@@ -106,6 +106,9 @@
 }
 
 /*BODY -site wide- custom styles*/
+body {
+    overflow-x:hidden !important;
+}
 .norm-card-style {
     background-color: var(--secoundary-bg-color) !important;
     padding: 0%;
